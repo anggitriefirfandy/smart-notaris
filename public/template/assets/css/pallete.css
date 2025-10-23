@@ -1,0 +1,35 @@
+.btn.btn-primary {
+    color: white;
+    background-color: #004aad;
+    border-color: #004aad;
+    font-size: font-size-14;
+    font-size: font-size-14;
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+        background-color: darken(#004aad, 7%);
+        border: 1px solid darken(#004aad, 7%);
+        color: white;
+    }
+}
+&.btn.btn-primary {
+    background-color: #004aad;
+    border: 1px solid #004aad;
+    color: white;
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+        background-color: darken(#004aad, 7%);
+        border: 1px solid darken(#004aad, 7%);
+        color: white;
+    }
+}
+::selection {
+    background: #004aad;
+    color: white;
+    text-shadow: none;
+}
